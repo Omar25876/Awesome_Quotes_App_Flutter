@@ -23,7 +23,19 @@ class _quotesState extends State<quotes> {
     //qqq(txt: 'Get busy living or get busy dying.', auth: 'Stephen King'),
     qqq(txt: 'You only live once, but if you do it right, once is enough.', auth: ' Mae West'),
     qqq(txt: 'If you want to live a happy life, tie it to a goal, not to people or things.', auth: 'Albert Einstein'),
-    qqq(txt: 'Not how long, but how well you have lived is the main thing.', auth: 'Seneca'),
+    qqq(txt: 'Not How long, but how well you have lived is the main thing.', auth: 'Seneca'),
+    qqq(txt: 'You only live once, but if you do it right, once is enough.', auth: ' Mae West'),
+    qqq(txt: 'If you want to live a happy life, tie it to a goal, not to people or things.', auth: 'Albert Einstein'),
+    qqq(txt: 'Not How long, but how well you have lived is the main thing.', auth: 'Seneca'),
+    qqq(txt: 'You only live once, but if you do it right, once is enough.', auth: ' Mae West'),
+    qqq(txt: 'If you want to live a happy life, tie it to a goal, not to people or things.', auth: 'Albert Einstein'),
+    qqq(txt: 'Not How long, but how well you have lived is the main thing.', auth: 'Seneca'),
+    qqq(txt: 'You only live once, but if you do it right, once is enough.', auth: ' Mae West'),
+    qqq(txt: 'If you want to live a happy life, tie it to a goal, not to people or things.', auth: 'Albert Einstein'),
+    qqq(txt: 'Not How long, but how well you have lived is the main thing.', auth: 'Seneca'),
+    qqq(txt: 'You only live once, but if you do it right, once is enough.', auth: ' Mae West'),
+    qqq(txt: 'If you want to live a happy life, tie it to a goal, not to people or things.', auth: 'Albert Einstein'),
+    qqq(txt: 'Not How long, but how well you have lived is the main thing.', auth: 'Seneca'),
 
   ];
 
@@ -42,7 +54,7 @@ class _quotesState extends State<quotes> {
           ),
         ),
       ),
-      body: Column(
+      body: ListView(
           children: qut.map((qqq) => qqcard(qq: qqq)).toList(),
         ),
     );
